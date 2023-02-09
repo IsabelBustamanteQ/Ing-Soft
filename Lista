@@ -1,23 +1,19 @@
 #pragma once
 #include<iostream>
 using namespace std;
-template<class T>
 class Lista
 {
 private:
- T Lista[10];
+ int Lista[10];
  int pos;
 public:  
     Lista();
     ~Lista();  
 };
-template<class T>
 Lista::Lista()
 {
     pos=0;
 }
-template<class T>
 Lista::~Lista()
 {
-
 }
