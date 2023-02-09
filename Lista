@@ -11,4 +11,13 @@ public:
     Lista();
     ~Lista();  
 };
+template<class T>
+Lista::Lista()
+{
+    pos=0;
+}
+template<class T>
+Lista::~Lista()
+{
 
+}
